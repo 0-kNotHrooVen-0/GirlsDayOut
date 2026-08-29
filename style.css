@@ -1,0 +1,47 @@
+body {
+
+    background-image: url("https://i.pinimg.com/736x/da/15/0f/da150fe86c63390719a37a65560847a6.jpg");
+    font-family: "Papyrus", fantasy;
+    font-weight: 600;
+    font-size: 20px;
+
+  }
+
+.stickerheader {
+
+ position: relative;
+ display: inline block;
+ margin-right: 70px;
+
+}
+h1 {
+    text-align: center;
+     font-family: "lucida handwriting", serif;
+     font-weight: 1000;
+}
+
+h1 {
+    text-align: center;
+     font-family: "Garamond", serif;
+     font-weight: 1000;
+}
+
+.transparent-sticker {
+  width: 100px;
+  height: auto;
+
+    position: absolute;    
+  top: 50%;              
+  left: 100%;            
+  transform: translateY(-50%) rotate(10deg);
+
+  background-color: transparent;
+
+    filter: 
+    drop-shadow(3px 0px 0px #fff) 
+    drop-shadow(-3px 0px 0px #fff) 
+    drop-shadow(0px 3px 0px #fff) 
+    drop-shadow(0px -3px 0px #fff)
+    drop-shadow(4px 5px 6px rgba(0, 0, 0, 0.25));
+
+}
